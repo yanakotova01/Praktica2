@@ -78,6 +78,7 @@ class Program
         double b = 3;
         double result = a / b;
         Console.WriteLine($"Частное: {result}");
+
     }
 
     static void Power()
@@ -109,3 +110,6 @@ class Program
         Console.WriteLine($"Косинус угла: {result}");
     }
 }
+
+    }
+
