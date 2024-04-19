@@ -78,4 +78,38 @@ class Program
         double b = 3;
         double result = a / b;
         Console.WriteLine($"Частное: {result}");
+
     }
+
+    static void Power()
+    {
+        double a = 2;
+        double b = 3;
+        double result = Math.Pow(a, b);
+        Console.WriteLine($"Возведение в степень: {result}");
+    }
+
+    static void SquareRoot()
+    {
+        double a = 16;
+        double result = Math.Sqrt(a);
+        Console.WriteLine($"Квадратный корень: {result}");
+    }
+
+    static void Sin()
+    {
+        double angle = 30;
+        double result = Math.Sin(angle * Math.PI / 180);
+        Console.WriteLine($"Синус угла: {result}");
+    }
+
+    static void Cos()
+    {
+        double angle = 60;
+        double result = Math.Cos(angle * Math.PI / 180);
+        Console.WriteLine($"Косинус угла: {result}");
+    }
+}
+
+    }
+
